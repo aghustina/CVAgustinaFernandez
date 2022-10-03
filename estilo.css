@@ -1,0 +1,215 @@
+html{ 
+    height: 100%;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+} 
+
+
+body{
+    background-color: white;
+    position: relative;
+    min-height: 100vh;
+}
+header{
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    height: auto;
+    background-color: rosybrown;
+
+}
+main{
+    position: relative;
+}
+footer{
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:3em;
+    margin: auto;
+
+
+}
+nav {
+    
+    background-color: rosybrown;
+}
+ul.b {
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+ul.b a:hover{
+    color: black;
+    text-decoration: none;
+}
+ul.b a:visited{
+    color: black;
+    text-decoration: none;
+}
+li.c {
+    
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+li.c a:hover{
+    color: white;
+}
+li.c a:visited{
+    text-decoration: none;
+}
+li.f a:visited{
+ color: rosybrown;
+}
+.productosagus a:hover{
+ color: rosybrown;
+}
+.productosagus a:visited{
+    color: rosybrown;
+}
+.TituloPrincipal {
+    text-align: center;
+}
+.TituloPagina{
+    text-align: center;
+    background-color: rgb(210, 177, 177);
+}
+.Pie{
+    text-align: center;
+}
+.contenedorflex{
+    display: flex;
+    justify-content:space-around;
+    
+} 
+
+.fotoagus{
+    max-width: 100%;
+    height: auto;
+    
+ }
+ .textoflex{
+    margin: 2em;
+}
+ul.a {
+    list-style-type: circle;
+  }
+  ul.d {
+    list-style-type: circle;
+    text-decoration: none;
+  }
+  ul.d a:hover{
+    color: #dbb8b8;
+    text-decoration: none;
+  }
+  ul.d a:visited{
+    color: rosybrown;
+    text-decoration: none;
+  }
+  input {                        
+    display: none;     
+  }
+  label {                       
+      display:none;
+  }
+  .contenedor{
+    display: flex;
+    justify-content: center;
+  }
+  .footer{
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:3em;
+    margin: auto;
+    
+  }
+  
+
+
+
+
+
+
+@media all and (max-width: 700px) {  
+  
+   
+  
+    li.c{                         
+         margin: 0px;
+         text-align: left;
+     }
+     ul.b{                          
+        display: none;
+        background-color: rosybrown;}
+       
+    .contenedorflex{
+            flex-direction: column;
+            justify-content: center;
+         }  
+   
+     label {                      
+            box-sizing: border-box;
+            display: block;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            font-weight: bold;
+            text-align: center;
+            user-select: none;
+            background-color: rosybrown;
+       
+             }
+    input:checked  ~ ul{   
+                display:block;
+                  }
+              
+    input:checked ~ label {   
+                  background: rosybrown; 
+                      }
+              
+    label:hover{                
+                  background: rosybrown;
+                  }
+    footer{
+        position: relative;
+    }
+    ul li a:hover{
+        color: white;
+ }
+ ul.d a:hover{
+    color: #dbb8b8;
+    text-decoration: none;
+  }
+  ul.d a:visited{
+    color: rosybrown;
+    text-decoration: none;
+  }
+}
+
+  
+     
+      
+  
+   
+    
+     
+     
+   
