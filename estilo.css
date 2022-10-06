@@ -190,7 +190,7 @@ ul.a {
                   background: rosybrown;
                   }
     footer{
-        position: relative;
+        position: absolute;
     }
     .footer{
         position: relative;
