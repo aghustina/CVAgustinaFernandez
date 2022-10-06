@@ -130,6 +130,15 @@ ul.a {
     display: flex;
     justify-content: center;
   }
+    .footer{
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:3em;
+    margin: auto;
+    
+  }
   
   
 
@@ -181,6 +190,9 @@ ul.a {
                   background: rosybrown;
                   }
     footer{
+        position: relative;
+    }
+    .footer{
         position: relative;
     }
     ul li a:hover{
